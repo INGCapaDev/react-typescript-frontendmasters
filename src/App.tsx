@@ -1,4 +1,10 @@
+import NameBadge from './components/NameBadge';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <main className='application'>
+      <NameBadge name='Jenny' />
+    </main>
+  );
 };
 export default App;
